@@ -1,0 +1,9 @@
+**/*.min.js
+config/config.js
+dist/*
+storybook-static/*
+*.stories.js
+*.stories.tsx
+*.d.ts
+*.test.tsx
+*.test.ts

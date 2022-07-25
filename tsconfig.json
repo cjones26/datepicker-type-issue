@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Target latest version of ECMAScript.
+    "target": "es2015",
+    // Expected JS version before compiling
+    "lib": ["esnext", "DOM"],
+    // Module code generation
+    "module": "es2020",
+    "declaration": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    // In order to allow shorthand imports
+    "baseUrl": "./src",
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": ["node", "react", "styled-components"],
+    "paths": {
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
